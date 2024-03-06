@@ -18,20 +18,11 @@ class Player
   end
 end
 
-# Players
-# Methods needed? 
-# 	starting_lives = 3
-# 	current_lives
-# 		>full_lives = 3
-# 		>half_life = 2
-# 		>third_life = 1
-# 		>dead = 0
-# 	lives = puts “current_lives / starting_lives”
+puts "Player 1, please enter your name: "
+player1 = Player.new(gets.chomp)
+puts "Player 2, please enter your name: "
+player2 = Player.new(gets.chomp)
 
-# 	>player_one
-# 		>name 
-# 		>lives
-		
-# 	>player_two
-# 		>name 
-# 		>lives
+puts "Player 1: #{player1.name} and Player 2: #{player2.name} have been created."
+
+puts "Player 1 #{player1.display_lives} and Player 2 #{player2.display_lives} you both have 3 lives. The 1st player to loose all thier lives will loose the game."
