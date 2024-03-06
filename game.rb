@@ -2,7 +2,11 @@
 
 class Game
   def initialize(players)
-    @players = players # array of player objects? so how to access again?
+    puts "Player 1, please enter your name: "
+    player1 = gets.chomp
+    puts "Player 2, please enter your name: "
+    player2 = gets.chomp
+    @players = [Player.new(player1), Player.new(player2)] # array of player objects? so how to access again?
     @turns = Turns.new(@players)
   end
 
