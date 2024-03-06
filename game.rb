@@ -2,6 +2,7 @@
 
 class Game
   def initialize(players)
+    # note to self added in players file to test, not sure if I want to keep this input here at the end
     puts "Player 1, please enter your name: "
     player1 = gets.chomp
     puts "Player 2, please enter your name: "
