@@ -1,4 +1,4 @@
-# manage the turns obj here?
+# This class will manage the turns in the game. It will have methods to start a turn, run a question, manage the current player, and adjust the player's lives based on their answer.
 
 # Turns 
 # Prompts question object to run 

@@ -1,4 +1,4 @@
-# manage the questions obj here?
+# This class will manage the questions in the game. It will have methods to create a question, return the sum, and check the answer.
 
 # Questions
 # Manages questions

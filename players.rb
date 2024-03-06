@@ -1,4 +1,4 @@
-# manage the players obj here?
+# This class will represent a player in the game. It will have properties like name and lives, and methods to manage the player's lives.
 
 # Players
 # Methods needed? 
